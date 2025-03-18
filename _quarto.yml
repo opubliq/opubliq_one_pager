@@ -1,8 +1,5 @@
 project:
-  type: manuscript
-
-article:
-  file: template.qmd
+  type: default
 
 metadata:
   title: "Opubliq One Pager"
