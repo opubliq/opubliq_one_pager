@@ -5,3 +5,7 @@ metadata:
   title: "Opubliq One Pager"
   author: "Opubliq"
   version: "1.0.0"
+
+format:
+  pdf:
+    format: PrettyPDF
