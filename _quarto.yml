@@ -8,4 +8,5 @@ metadata:
 
 format:
   pdf:
-    format: PrettyPDF
+    template: latex/layout.tex
+    keep-tex: true

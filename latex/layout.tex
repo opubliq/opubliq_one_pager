@@ -1,0 +1,71 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{graphicx}  % Pour insérer un logo
+\usepackage{multicol}  % Pour la mise en page en colonnes
+\usepackage{array}     % Pour structurer la grille
+\usepackage{xcolor}    % Pour ajouter du style
+
+\begin{document}
+
+% --- Ligne 1 : En-tête avec Titre et Accroche ---
+\noindent
+\begin{minipage}{0.3\textwidth}
+    \includegraphics[width=2.5cm]{logo.png} % Remplacer par ton logo
+\end{minipage}
+\hfill
+\begin{minipage}{0.65\textwidth}
+    \raggedright
+    {\huge \textbf{Nom de l'Offre / Service}} \\[0.5em]
+    {\Large Accroche percutante ici}
+\end{minipage}
+
+\vspace{1cm} % Espacement
+
+% --- Ligne 2 : Grille principale ---
+\noindent
+\begin{tabular}{|p{0.6\textwidth}|p{0.35\textwidth}|}
+    \hline
+    \rowcolor{gray!20}
+    \multicolumn{2}{|c|}{\textbf{Offre de Services}} \\
+    \hline
+    % Colonne 1 : Services (plus d’espace)
+    \begin{minipage}[t]{0.58\textwidth}
+        \vspace{0.5em} % Espacement interne
+        \textbf{Module 1} : Description ici \\
+        \textbf{Module 2} : Description ici \\
+        \textbf{Module 3} : Description ici \\
+        \vspace{0.5em}
+    \end{minipage}
+    &
+    % Colonne 2 : Fonctionnalités + Cas d'Usage
+    \begin{minipage}[t]{0.33\textwidth}
+        \vspace{0.5em}
+        \textbf{Fonctionnalités Clés} \\ 
+        - Fonction 1 \\
+        - Fonction 2 \\
+        - Fonction 3 \\
+        \vspace{0.5em}
+        \textbf{Cas d'Usage} \\ 
+        - Client 1 \\
+        - Client 2 \\
+        - Client 3 \\
+        \vspace{0.5em}
+    \end{minipage}
+    \\
+    \hline
+\end{tabular}
+
+\vspace{1cm} % Espacement
+
+% --- Ligne 3 : Contact & Call-to-Action ---
+\noindent
+\begin{center}
+    \fbox{\parbox{0.9\textwidth}{
+        \centering
+        {\Large \textbf{Contactez-nous !}} \\[0.5em]
+        Email: contact@exemple.com \quad | \quad Site web: www.exemple.com \\[0.5em]
+        \includegraphics[width=2.5cm]{qrcode.png} % Remplacer par un QR Code si nécessaire
+    }}
+\end{center}
+
+\end{document}
