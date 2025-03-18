@@ -1,5 +1,5 @@
 project:
-  type: template
+  type: report
 
 metadata:
   title: "Opubliq One Pager"
