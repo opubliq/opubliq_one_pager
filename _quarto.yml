@@ -1,0 +1,7 @@
+project:
+  type: template
+
+metadata:
+  title: "Opubliq One Pager"
+  author: "Opubliq"
+  version: "1.0.0"
